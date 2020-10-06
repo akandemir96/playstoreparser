@@ -1,0 +1,10 @@
+Kullanılan modüller:
+selenium: Get isteği ve web sayfası üzerindeki işlemler bu modülle sağlandı.(mozilla için geckodriver gerekmektedir.https://github.com/mozilla/geckodriver/releases adresinden edilinebilir.)
+beautifulsoup4 : Html parser olarak beutifulsoup kullanıldı.
+time : Web sitesi üzerinde işlemler yapılırken bekleme süresi atamak için kullanıldı.
+
+---------------------------------------------------------------------------------
+
+Kullanıcıdan Google Play Store'da aramak istediği uygulamanın adı alınıyor.
+Selenium modülü sayesinde web sitesinde girilen keyword aranıyor.
+BeautifulSoup ile sayfa parse ediliyor. HTML kodunda uygulamaların url'i göreli olarak verildiği için uygulamaya özgü kısım bölünüp uygulamanın geçerli url'i elde edilip listeleniyor
